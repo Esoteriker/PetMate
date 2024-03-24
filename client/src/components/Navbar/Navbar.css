@@ -1,0 +1,53 @@
+.small-logo {
+    display: none;
+  }
+  
+.large-logo {
+    display: none;
+}
+
+.css-1oqqzyl-MuiContainer-root {
+  width: 100%;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.membership{
+  font-family: Comic Sans MS;
+  color: gray;
+  font-weight: bold;
+  text-transform: none;
+  font-size: 20px;
+}
+
+@media (min-width: 1200px){
+  .css-1oqqzyl-MuiContainer-root {
+    max-width: 100% !important;
+  }
+}
+  
+@media (min-width: 960px) {
+    .small-logo {
+      display: block;
+      width: 48px;
+      height: 48px;
+      margin-right: 12px;
+    }
+  
+    .large-logo {
+      display: none;
+      width: 48px;
+      height: 48px;
+    }
+
+    .css-1oqqzyl-MuiContainer-root {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+}

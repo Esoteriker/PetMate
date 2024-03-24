@@ -1,0 +1,38 @@
+.page-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.search-header{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+.chips-header{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    margin-top: 5px;
+    flex-wrap: wrap;
+}
+
+.line {
+  width: 100%;
+  border: none;
+  height: 1.2px;
+  background-image: linear-gradient(to right, transparent 2%, black 10%, black 90%, transparent 98%);
+}
+
+@media (max-width: 960px) {
+  .search-header {
+      flex-direction: column;
+  }
+}

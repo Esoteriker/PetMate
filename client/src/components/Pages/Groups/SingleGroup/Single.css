@@ -1,0 +1,243 @@
+@import url("https://fonts.font.im/css?family=Gloria+Hallelujah|Ubuntu:400,500");
+
+/* groups */
+.single-group-info {
+  background-color: #ebebeb;
+  border-radius: 50px;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-top: 20px;
+  padding-bottom: 15px;
+}
+.firstrow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  margin-top: 25px; /* 添加这行代码来设置上边距 */
+}
+.group-details {
+  font-family: "Ubuntu";
+  width: 1000px;
+  margin-bottom: 50px;
+}
+
+.single-group-avatar {
+  margin-right: 20px;
+  margin-bottom: 80px;
+}
+
+.single-group-avatar .MuiAvatar-root {
+  width: 75px;
+  height: 75px;
+}
+
+.group-description {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.single-forum-post > div,
+.single-forum-header > div {
+  flex: 1;
+}
+
+.single-header-date {
+  position: relative; /* 开启相对定位 */
+  left: -10px; /* 向左移动的距离 */
+}
+
+.single-post-date {
+  position: relative; /* 开启相对定位 */
+  left: 40px; /* 向左移动的距离 */
+}
+
+.single-group-name {
+  color: #393c7c;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 4px;
+  font-family: "Comic Sans MS";
+}
+
+.single-group-creater,
+.single-group-amount {
+  margin: 0;
+  color: #5c5c5c;
+}
+
+.single-group-creater {
+  margin-left: 200px; /* 设置左侧间距为 10px */
+}
+
+.single-group-amount {
+  margin-left: 70px;
+}
+
+.single-tag {
+  display: inline-block;
+  margin-right: 12px;
+  padding: 4px 0px;
+  color: #ff8000;
+  font-family: "Comic Sans MS", cursive;
+}
+
+.single-group-tags {
+  /* 其他样式 */
+  margin-bottom: 10px; /* 增加底部间距 */
+}
+.single-group-info-bottom {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.single-group-info-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.single-group-intro-tags {
+  display: flex;
+  align-items: baseline;
+  margin-top: 4px;
+}
+.single-group-intro {
+  margin: 0;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.single-group-button {
+  font-size: 16px; /* 字体大小 */
+  margin: 4px 8px; /* 左右和上下宽一点的外边距 */
+  border-radius: 8px; /* 圆角 */
+  background-color: transparent; /* 背景色透明 */
+  color: #393c7c;
+  border-color: #393c7c;
+  cursor: pointer;
+  margin-left: 700px;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: center;
+}
+.joined-button {
+  /*  padding: 8px 16px; /* 上下宽一点的内边距 */
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 16px; /* 字体大小 */
+  margin: 4px 8px; /* 左右和上下宽一点的外边距 */
+  width: 100px;
+  background-color: #ffffff;
+
+  cursor: pointer;
+  font-family: "Gloria Hallelujah", cursive;
+  border-radius: 50px;
+
+  border-color: transparent;
+  color: #9c62f2;
+}
+.joined-button:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  background-color: #393c7c;
+  color: #fafafa;
+}
+button:disabled {
+  /* 添加你想要的禁用样式 */
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.write-post-button:hover {
+  box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.1);
+  background-color: #393c7c;
+  color: #fafafa;
+}
+
+.write-post-button {
+  /* padding: 8px 16px;  */ /* 上下宽一点的内边距 */
+  font-size: 16px; /* 字体大小 */
+  margin: 4px 8px; /* 左右和上下宽一点的外边距 */
+
+  background-color: #ffffff;
+  width: 100px;
+  cursor: pointer;
+  font-family: "Gloria Hallelujah", cursive;
+  border-radius: 50px;
+
+  border-color: transparent;
+  color: #ff8000;
+  justify-self: end;
+}
+
+.single-group-button:hover {
+  /* 悬停样式 */
+  /* 可以设置为与默认样式相同，或者设置为透明 */
+  background-color: transparent;
+}
+
+/* Forum container */
+.single-forum {
+  margin: 20px;
+  font-family: "Comic Sans MS", cursive;
+}
+
+/* Forum post */
+.single-forum-post {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Post date */
+.single-post-date,
+.single-header-date {
+  /* width: 120px; */
+  text-align: center;
+  margin-left: 20px;
+}
+
+/* Post author */
+.single-post-author,
+.single-header-author {
+  /* width: 200px; */
+  text-align: right;
+}
+
+/* Forum header */
+.single-forum-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.single-forum-header {
+  border-bottom: 1px dashed #ccc;
+  margin-bottom: 2px;
+}
+
+.single-header-date {
+  position: relative; /* 开启相对定位 */
+  left: -10px; /* 向左移动的距离 */
+}
+
+/* Column names */
+.column-names {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: transparent;
+  font-weight: bold;
+}
+/* Column name Date */
+.header-date {
+  text-align: right;
+  margin-right: 0.5px; /* 调整右边距 */
+}
